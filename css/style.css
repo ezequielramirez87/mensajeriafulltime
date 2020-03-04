@@ -1,0 +1,153 @@
+:root{
+    --dark: black;
+    --white: white;
+    --gray: gray;
+    --otro: rgba(255, 230, 0, 0.596);
+}
+body{
+    background: var(--dark);
+    padding: 0;
+    margin: 0;
+}
+.bg-dark{
+    background-color: var(--dark)!important; 
+    z-index: 99  ;
+    position: fixed;
+    width: 100%;
+}
+.dropdown-item{
+    color: white !important;
+    font-family: "Righteous";
+}
+.dropdown-item:hover{
+    color: var(--dark) !important;
+}
+.logo{
+    height: 3rem;
+}
+.nav-link{
+    color:var(--white);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "Righteous";
+}
+.slide{
+    z-index: 1;
+}
+.titulos{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.texto{
+    font-family: 'Open Sans', sans-serif;
+}
+.porque{
+    padding: 5rem;
+}
+.porque .titulos{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.porque .vector{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+.porque .texto{
+    color: white;
+}
+.map .titulos{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.map .mapa-vector{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+.redes .titulos{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+}
+.map p{
+    color: white;
+}
+footer{
+    background: gray;
+    color: white;
+    text-align: center;
+}
+.whatsapp{
+    font-size: 2.6rem;
+    text-align: center;
+    color: white;
+    float: left;
+    position: fixed;
+    z-index: 500;
+    bottom: 5%;
+    right: 5%;
+    background: green;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,1);
+
+    transition: 1s;
+}
+.whatsapp:hover{
+    background: white;
+    color: green;
+    cursor: pointer;
+}
+.formulario h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    margin:20px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.formulario label{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.telefono h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+.telefono p{
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.whatsapp-bt{
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    width: 190px;
+    transition: 1s;
+
+}
+.whatsapp-bt:hover{
+    background: green;
+    cursor: pointer;
+}
+
